@@ -1,13 +1,13 @@
 import java.io.*;
 
 // Java program to implement 
-// a Singly Linked List // Time Complexity :
-// Space Complexity :
-// Did this code successfully run on Leetcode :
-// Any problem you faced while coding this :
+// a Singly Linked List // Time Complexity : O(1) - for all operations since I'm keeping track of indexes when adding elements
+// Space Complexity :  O(n)
+// Did this code successfully run on Leetcode : yes
+// Any problem you faced while coding this : no
 
 // Your code here along with comments explaining your approach
-
+// Keeping the current node reference so I don't have to iterate every time when adding new element
 class LinkedList {
 
     static Node head; // head of list
