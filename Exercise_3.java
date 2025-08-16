@@ -1,7 +1,7 @@
 import java.io.*;
 
 // Java program to implement 
-// a Singly Linked List // Time Complexity : O(1) - for all operations since I'm keeping track of indexes when adding elements
+// a Singly Linked List // Time Complexity : O(1) - for adding and O(n) for printing all elements
 // Space Complexity :  O(n)
 // Did this code successfully run on Leetcode : yes
 // Any problem you faced while coding this : no
